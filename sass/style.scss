@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#app > div {
+    > ul {
+        padding: 0;
+        > div {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid black;
+            div > p {
+                margin: 0;
+            }
+            div > a {
+                text-decoration: none;
+                color: gray;
+            }
+        }
+    }
+    > form {
+        text-align: center;
+        > input[type=text], input[type=email], button {
+            font-size: 18px;
+        }
+    }
+}

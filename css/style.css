@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#app > div > ul {
+  padding: 0;
+}
+
+#app > div > ul > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+#app > div > ul > div div > p {
+  margin: 0;
+}
+
+#app > div > ul > div div > a {
+  text-decoration: none;
+  color: gray;
+}
+
+#app > div > form {
+  text-align: center;
+}
+
+#app > div > form > input[type=text], #app > div > form input[type=email], #app > div > form button {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
