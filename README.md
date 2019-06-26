@@ -1,1 +1,1 @@
-React JSX exercise - contacts app: 
+React JSX exercise - contacts app: https://grzegorz-turek.github.io/react-contactsapp-jsx/
